@@ -1,0 +1,67 @@
+.sidebar {
+    position: fixed;
+    top: 55px;
+    left: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 36px;
+}
+
+.logo1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.logo {
+    width: 185px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 30px;
+    gap: 10px;
+    width: 100%;
+    margin: 0;
+}
+
+.sidebar li:has(ul) {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidebar ul ul {
+    width: 100%;
+    padding-left: 12px;
+    gap: 10px;
+}
+
+.sidebar ul ul a {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.sidebar li {
+    font-size: 14px;
+    line-height: normal;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #000;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
